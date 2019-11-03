@@ -1,0 +1,15 @@
+Guia para importar resultados do Social Mapper para o Maltego Community (Free) Edition
+
+1) Baixe e instale o Maltego Community Edition.
+
+2) Pegue o arquivo CSV dos resultados do Social Mapper e mude tudo da coluna para a direita. Em cada linha desta nova coluna, insira a Organização ou o Grupo que vincula todos os destinos.
+
+3) Abra o Maltego e vá para Arquivo (ou Símbolo do círculo superior esquerdo)> Importar> Importar gráfico da tabela.
+
+4) Selecione o arquivo CSV dos resultados do Social Mapper editado e escolha 'Árvore' nas Opções de conectividade (Imagem 1).
+
+5) Em Configuração de mapeamento, escolha o mapeamento para cada coluna. Empresa para a 1ª coluna, Pessoa para a 2ª coluna e URLs para o restante (Imagem 2).
+
+6) Na Tabela de Conectividade em Configuração de Mapeamento, aponte a Pessoa para cada URL e a Organização para a Pessoa (Imagem 3).
+
+7) Verifique se está correto na visualização do gráfico de conectividade. Em seguida, conclua a importação.
